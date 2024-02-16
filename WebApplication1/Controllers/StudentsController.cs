@@ -62,6 +62,7 @@ namespace WebApplication1.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
         [HttpPut]
         public Student UpdateStudentInfo(Student updatedStudent)
         {

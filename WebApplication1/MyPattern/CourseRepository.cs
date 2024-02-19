@@ -16,6 +16,7 @@ namespace WebApplication1.MyPattern
 
         public string CreateCourse(CourseDTO courseDTO)
         {
+
             try
             {
                 using (var connection = new NpgsqlConnection(_configuration.GetConnectionString("DefaultConnection")))
